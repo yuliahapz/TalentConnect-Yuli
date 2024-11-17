@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Students Data</title>
+</head>
+<body>
+    <style>
+        table {
+            border-collapse: collapse; /* Menggunakan border-collapse untuk menggabungkan border */
+            width: 100%; /* Mengatur lebar tabel */
+        }
+        th, td {
+            border: 1px solid black; /* Mengatur border tabel */
+            padding: 8px; /* Mengatur padding tabel */
+            text-align: left; /* Mengatur teks tabel ke kiri */
+            font-family: Arial, sans-serif; /* Mengatur font tabel */
+            font-size: 14px; /* Mengatur ukuran font tabel */
+        }
+        th {
+            background-color: #007BFF; /* Mengatur warna latar belakang header */
+            color: white; /* Mengatur warna teks header */
+            text-align: center; /* Mengatur teks header ke tengah */
+        }
+        h1 {
+            text-align: center; /* Mengatur teks judul ke tengah */
+            color: #007BFF; /* Mengatur warna teks judul */
+            font-family: Arial, sans-serif; /* Mengatur font teks judul */
+        }
+
+        form {
+        width: 50%; /* Menentukan lebar form */
+        margin: 0 auto; /* Memposisikan form di tengah */
+        font-family: Arial, sans-serif; /* Font yang lebih bersih */
+
+    }
+    fieldset {
+        border: 2px solid #007BFF; /* Warna dan ketebalan garis luar */
+        padding: 20px; /* Jarak di dalam fieldset */
+        border-radius: 8px; /* Membuat sudut fieldset melengkung */
+    }
+    legend {
+        font-size: 1.2em; /* Ukuran teks legend */
+        font-weight: bold; /* Teks tebal */
+        color: #007BFF; /* Warna teks */
+    }
+    label {
+        display: block; /* Menampilkan label di atas input */
+        margin-bottom: 8px; /* Jarak antara label dan input */
+        font-weight: bold; /* Menonjolkan teks label */
+    }
+    input, textarea {
+        width: 100%; /* Lebar penuh */
+        padding: 10px; /* Jarak dalam */
+        margin-bottom: 15px; /* Jarak bawah */
+        border: 1px solid #ccc; /* Garis tepi */
+        border-radius: 4px; /* Sudut melengkung */
+        box-sizing: border-box; /* Memastikan padding tidak menambah lebar */
+    }
+    input[type="submit"] {
+        background-color: #007BFF; /* Warna tombol */
+        color: white; /* Warna teks */
+        border: none; /* Menghilangkan garis tepi */
+        padding: 10px 20px; /* Ukuran tombol */
+        cursor: pointer; /* Menambahkan pointer saat hover */
+        border-radius: 4px; /* Membuat tombol melengkung */
+    }
+    input[type="submit"]:hover {
+        background-color: #0056b3; /* Warna saat di-hover */
+    }
+    </style>
+    <button type="button" style="color: white; background-color: #007BFF; padding: 5px 20px; border-radius: 5px; border: none; cursor: pointer;" onclick="location.href='index.html'">Back</button>
+    <h1>Students Data</h1>
+    <table border="1">
+        <tr>
+            <th colspan="2">Name</th>
+            <th>Age</th>
+            <th>Hobbies</th>
+        </tr>
+        <tr>
+            <td rowspan="2">Alfred</td>
+            <td rowspan="2">Chang</td>
+            <td rowspan="2">27</td>
+            <td>Play Guitar</td>
+        </tr>
+        <tr>
+            <td>Play Basketball</td>
+        </tr>
+        <tr>
+            <td rowspan="3">Allen</td>
+            <td rowspan="3">Barru</td>
+            <td rowspan="3">30</td>
+            <td>SkateBoard</td>
+        </tr>
+        <tr>
+            <td>Singing</td>
+        </tr>
+        <tr>
+            <td>
+                Hiking
+            </td>
+        </tr>
+        <tr>
+            <td rowspan="2">Alfred</td>
+            <td rowspan="2">Chang</td>
+            <td rowspan="2">27</td>
+            <td>Sleep</td>
+        </tr>
+        <tr>
+            <td>Travelling</td>
+        </tr>
+        <tr>
+            <td>Jessicca</td>
+            <td>Truneau</td>
+            <td>27</td>
+            <td>Shopping</td>
+        </tr>
+    </table>
+    <br>
+
+    <form action="">
+        <fieldset>
+            <legend>Students Input Data</legend>
+        <label for="name" id="name" >Name : </label>
+        <input type="text" name="username" id="username" placeholder="input your first name">
+        <input type="text" name="username" id="username" placeholder="input your last name">
+        <br><br>
+        <label for="age" id="age">Age :</label>
+        <input type="number" name="age" id="age" placeholder="input your age">
+        <br><br>
+        <label for="hobbies" id="hobbies">Hobbies : </label>
+        <textarea name="hobbies" id="hobbies" cols="32" rows="5" placeholder="Input your hobbies sepparated by comma! e.g cycling,studying"></textarea>
+        <br><br>
+        <input type="submit" value="Submit">
+    </fieldset>
+    </form>   
+</body>
+</html>
