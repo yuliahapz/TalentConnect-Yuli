@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css"> <!--external css using a <link> element in the <head> section-->
+    <style> 
+        h1 {
+            color: blueviolet; /*internal css using a <style> element in the <head> section*/
+            font-size: 40px;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Yuliana Hapsari</h1>
+    <h1>Lead QA Engineer</h1> <!--internal css using a <style> element in the <head> section-->
+    <h2>Front End Developer</h2> <!--external css using a <link> element in the <head> section-->
+    <!--Selector= body, Property = background/color, Value= royalblue, declaration= pasangan property dan value, declaration block = semua cssnya-->
+    <!--Css Selectors= class, id , tag, attribute-->
+    <div style="background-color: royalblue; color: white;">Hello World</div> <!--inline css using style atribute--> 
+    <!--Hierarchy Selector= inline, id, class, atribute, tag, universal-->
+    <p>--Hierarchy Selector--</p>
+    <ul>
+        <li>Inline</li>
+        <li>id</li>
+        <li>class</li>
+        <li>atribute</li>
+        <li>tag</li>
+        <li>universal</li>
+    </ul>
+    <!--Type of Selector-->
+    <div class="title">This is Class Selector</div> <!--Class Selector-->
+    <div id="role">This is ID Selector</div> <!--ID Selector-->
+    <h3>This is Tag Selector</h3> <!--Tag Selector-->
+    <input type="text" id="text" placeholder="input your name" aria-placeholder="input your name" /> <!--aria placeholder untuk accessibility di browser, biasanya digunakan untuk disabilitas-->
+    <input type="number" />
+    <input type="radio" /> <!--Atribute Selector for input-->
+    <p>This is Universal Selector</p> <!--Universal Selector-->
+
+    <!--Type of Color--> <!--website color hunt / coolors untuk mencari warna yang bagus--> 
+    <!-- Name, Hex, RGB, HSL, alpha-->
+    <h2>Color</h2>
+    <p style="color: red;;">Red</p> <!--Name Color. ex: red-->
+    <p style="color: #ff0000;">#ff0000</p> <!--Hex Color. ex: #ff0000-->
+    <p style="color: rgb(255, 0, 0);">rgb(255, 0, 0)</p> <!--RGB Color. ex: rgb(255, 0, 0)-->
+    <p style="color: hsl(0, 100%, 50%);">hsl(0, 100%, 50%)</p> <!--HSL Color. ex: hsl(0, 100%, 50%)-->
+    <p style="color: rgba(255, 0, 0, 0.5);">rgba(255, 0, 0, 0.5)</p> <!--RGBA Color. ex: rgba(255, 0, 0, 0.5)-->
+
+    <!--Type of Font--> <!--website font google fonts untuk mencari font yang bagus, bisa pake embed atau copy-->
+    <h2 style="color: seagreen;">Font</h2>
+    <p style="font-family: 'Poppins', sans-serif;">Poppins</p>
+    <p style="font-weight: 600;">Ketebalan Huruf</p> <!--Semakin besar angka semakin tebal-->
+    <p style="font-size: 20px;">Ukuran Huruf</p> <!--Semakin besar angka semakin besar-->
+    <p style="line-height: 1,5;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim perferendis maiores dolore assumenda voluptatem commodi possimus magnam repudiandae. Est laborum inventore ipsa alias aut. Aliquam molestiae cupiditate error culpa provident.</p> <!--Tinggi Baris gunakan 1.5 / 1.6 / 1.7 / 1.8 / 1.9 jangan pakai px-->
+    <p style="font-style: italic;">Italic</p>
+    <p style="font-style: oblique;">Oblique</p>
+    <p style="text-align: center;">Center</p>
+    <p style="text-align: right;">Right</p>
+    <p style="text-align: left;">Left</p>
+    <p style="text-transform: uppercase;">Uppercase</p>
+    <p style="text-transform: lowercase;">Lowercase</p>
+    <p style="text-transform: capitalize;">Capitalize</p>
+    <p style="text-decoration: underline;">Underline</p>
+    <p style="text-decoration: line-through;">Line Through</p>
+    <p style="text-decoration: overline;">Overline</p>
+
+    <!--Text Alignment-->
+    <h2 style="color: plum;">Text Alignment</h2>
+    <p style="text-align: center;">Center</p>
+    <p style="text-align: right;">Right</p>
+    <p style="text-align: left;">Left</p>
+
+    <ul class="list">
+        <li>list 1</li>
+        <li>list 2</li>
+        <li>list 3</li>
+    </ul>
+
+    <!--Text Transform--> <!--emet cheat sheet-->
+    <h2 style="color: plum;">Text Transform</h2>
+    <p style="text-transform: uppercase;">Uppercase</p>
+    <p style="text-transform: lowercase;">Lowercase</p>
+    <p style="text-transform: capitalize;">Capitalize</p>
+
+    <!-- scss & filament laravel-->
+     <!--Codewars, hackerank, leetcode-->
+</body>
+</html>

@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+h2 {
+    color: red; /*eksternal css using a <style> element in the <head> section*/
+    font-size: 30px;
+    text-align: center;
+}
+
+.title {
+    color: blue; /*Class Selector*/
+    font-size: 30px;
+    text-align: center;
+}
+
+#role {
+    color: green; /*ID Selector*/
+    font-size: 30px;
+    text-align: center;
+}
+
+h3 {
+    color: orange; /*Tag Selector*/
+    font-size: 30px;
+    text-align: center;
+}
+
+input [type="text"] {
+    width: 100px; /*Atribute Selector for input*/
+    height: 20px;
+    
+}
+
+* {
+    color: palevioletred; /*Universal Selector*/
+    font-size: 30px;
+}
+
+p {
+    color: green;
+    font-family: 'Poppins', sans-serif;
+}
+
+.list {
+    color: purple;
+    list-style: square;
+    list-style: image(url('https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80'));
+    list-style-position: inside;
+}
