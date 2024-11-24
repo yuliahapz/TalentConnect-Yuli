@@ -1,0 +1,116 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: fixed;
+    background-color: #fff;
+  }
+  
+  .logo {
+    width: 100px;
+  }
+  
+  .menu {
+    display: flex;
+    gap: 20px;
+  
+  a {
+    text-decoration: none;
+    color: grey;
+    font-size: 12px;
+    }
+    }
+
+  .button {
+    background-color: #fff;
+    border: 1px solid #0bb1cb;
+    font-size: 10px;
+    border-radius: 8px;
+    color: #0bb1cb;
+    padding: 8px 12px;
+  }
+
+ /* Hero Section Styles */
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+    gap: 20px;
+
+    a {
+        text-decoration: none;
+        color: #0bb1cb;
+        font-size: 12px;
+        }
+  }
+  
+  .hero-content {
+    max-width: 600px;
+  }
+  
+  .hero-title {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .hero-subtitle {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 20px;
+  }
+  
+  .hero-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .hero-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .hero-image {
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+    border-radius: 8px;
+    object-fit: cover;
+  }
+  
+  /* Responsiveness */
+  @media (max-width: 768px) {
+    .hero-title {
+      font-size: 2rem;
+    }
+  
+    .hero-subtitle {
+      font-size: 1rem;
+    }
+  
+    .hero-button {
+      font-size: 0.9rem;
+      padding: 8px 16px;
+    }
+  }
+  
+  
+
+  /*box model terdiri dari 4 : margin , border, padding, content*/
